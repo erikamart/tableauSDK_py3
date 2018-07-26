@@ -1,0 +1,312 @@
+2018-07-23 23:19:49.573 (2944): -----------------------------------------------------------------------------
+2018-07-23 23:19:49.573 (2944): Initializing fault reporting
+2018-07-23 23:19:49.573 (2944): Fault reporting log pathname: C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tdeserver64-error_15276_18-0723-231949.log
+2018-07-23 23:19:49.573 (2944): Initializing MiniDump
+2018-07-23 23:19:49.573 (2944): Loading 'DbgHelp.dll'
+2018-07-23 23:19:49.573 (2944): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2018-07-23 23:19:49.573 (2944):   Product Name: Microsoft® Windows® Operating System
+2018-07-23 23:19:49.573 (2944):   File Version: 10.0.17134.1 (WinBuild.160101.0800)
+2018-07-23 23:19:49.573 (2944):   Product Version: 10.0.17134.1
+2018-07-23 23:19:49.573 (2944): Finding function 'MiniDumpWriteDump'
+2018-07-23 23:19:49.573 (2944): Success
+2018-07-23 23:19:49.573 (2944): Registering unhandled exception filter
+2018-07-23 23:19:49.573 (2944): -----------------------------------------------------------------------------
+2018-07-23 23:19:49.573 (2944): argv[0]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tableausdk\bin\tdeserver64.exe"
+2018-07-23 23:19:49.573 (2944): argv[1]="--callback"
+2018-07-23 23:19:49.573 (2944): argv[2]="tab.pipe://./pipe/{FAF5B045-73A4-4186-B119-948D0541A288}"
+2018-07-23 23:19:49.573 (2944): argv[3]="--listen"
+2018-07-23 23:19:49.573 (2944): argv[4]="tab.pipe://./pipe/auto"
+2018-07-23 23:19:49.573 (2944): argv[5]="--desktop"
+2018-07-23 23:19:49.573 (2944): argv[6]="--log"
+2018-07-23 23:19:49.573 (2944): argv[7]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\DataExtract.log"
+2018-07-23 23:19:49.573 (2944): pid=15276
+2018-07-23 23:19:49.573 (2944): Machine Configuration
+2018-07-23 23:19:49.573 (2944):   Max Descriptors: -1
+2018-07-23 23:19:49.573 (2944): Vectorization Support
+2018-07-23 23:19:49.573 (2944):   Supports SSE:    Yes
+2018-07-23 23:19:49.573 (2944):   Supports SSE2:   Yes
+2018-07-23 23:19:49.573 (2944):   Supports SSE3:   Yes
+2018-07-23 23:19:49.573 (2944):   Supports SSE4.1: Yes
+2018-07-23 23:19:49.573 (2944):   Supports SSE4.2: Yes
+2018-07-23 23:19:49.573 (2944):   Supports AVX:    Yes
+2018-07-23 23:19:49.573 (2944):   Supports AVX2:   Yes
+2018-07-23 23:19:49.573 (2944): Adjusted Values
+2018-07-23 23:19:49.573 (2944):   Physical RAM:              8495554560
+2018-07-23 23:19:49.573 (2944):   CPUs available to process: 4
+2018-07-23 23:19:49.573 (2944):   worker-threads:            4
+2018-07-23 23:19:49.573 (2944):   max-concurrency:           2
+2018-07-23 23:19:49.573 (2944):   query-parallelism:         2
+2018-07-23 23:19:49.573 (2944):   min-query-parallelism:     2
+2018-07-23 23:19:49.573 (2944):   work-buffer-size:          64
+2018-07-23 23:19:49.573 (2944):   TrackingMappedFiles :      1
+2018-07-23 23:19:49.573 (2944):   MemoryMapEntireFile:       1
+2018-07-23 23:19:49.573 (2944):   use-openfile-cache:        1
+2018-07-23 23:19:49.573 (2944): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}
+2018-07-23 23:19:49.573 (2944): tdeserver: new connection, connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}
+2018-07-23 23:19:49.579 (3276): tdeserver: open session1, connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}
+2018-07-23 23:19:49.579 (14000): Session1: QueryExecute:
+2018-07-23 23:19:49.579 (14000): (create database "C:\\Users\\Squirtel\\Documents\\LearnEd\\python\\TableauSDK-10300.18.0703.1954\\trivialExample.tde")
+2018-07-23 23:19:50.027 (14000): Compiling query with Memory Budget=3527069696 MemoryAvailable=3527069696
+2018-07-23 23:19:50.027 (14000): Session1: QueryExecute: OK, Elapsed time:0.447s, Compilation time:0.447s, Execution time:0.000s
+2018-07-23 23:19:50.027 (9888): Session1: QueryExecute:
+2018-07-23 23:19:50.027 (9888): (package)
+2018-07-23 23:19:50.027 (9888): Compiling query with Memory Budget=3527118848 MemoryAvailable=3527118848
+2018-07-23 23:19:50.027 (9888): PackageDatabase: in-place package of "C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\trivialExample.tde"
+2018-07-23 23:19:50.058 (9888): PackageDatabase: finished
+2018-07-23 23:19:50.058 (9888): Session1: QueryExecute: OK, Elapsed time:0.020s, Compilation time:0.000s, Execution time:0.019s
+2018-07-23 23:19:50.058 (3276): tdeserver: close session1, connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}
+2018-07-23 23:19:50.058 (2944): tdeserver: closing connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}
+2018-07-23 23:19:50.058 (3276): tdeserver: disconnected connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{A41DF535-0447-4236-9A37-A5A7470993DC}): The pipe has been ended.
+2018-07-23 23:19:50.058 (2944): tdeserver: exit (0)
+2018-07-23 23:26:20.522 (12148): -----------------------------------------------------------------------------
+2018-07-23 23:26:20.522 (12148): Initializing fault reporting
+2018-07-23 23:26:20.522 (12148): Fault reporting log pathname: C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tdeserver64-error_2260_18-0723-232620.log
+2018-07-23 23:26:20.529 (12148): Initializing MiniDump
+2018-07-23 23:26:20.529 (12148): Loading 'DbgHelp.dll'
+2018-07-23 23:26:20.529 (12148): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2018-07-23 23:26:20.529 (12148):   Product Name: Microsoft® Windows® Operating System
+2018-07-23 23:26:20.529 (12148):   File Version: 10.0.17134.1 (WinBuild.160101.0800)
+2018-07-23 23:26:20.529 (12148):   Product Version: 10.0.17134.1
+2018-07-23 23:26:20.529 (12148): Finding function 'MiniDumpWriteDump'
+2018-07-23 23:26:20.529 (12148): Success
+2018-07-23 23:26:20.529 (12148): Registering unhandled exception filter
+2018-07-23 23:26:20.529 (12148): -----------------------------------------------------------------------------
+2018-07-23 23:26:20.529 (12148): argv[0]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tableausdk\bin\tdeserver64.exe"
+2018-07-23 23:26:20.529 (12148): argv[1]="--callback"
+2018-07-23 23:26:20.529 (12148): argv[2]="tab.pipe://./pipe/{3A70B967-263B-420B-92A2-36B1400337DF}"
+2018-07-23 23:26:20.529 (12148): argv[3]="--listen"
+2018-07-23 23:26:20.529 (12148): argv[4]="tab.pipe://./pipe/auto"
+2018-07-23 23:26:20.529 (12148): argv[5]="--desktop"
+2018-07-23 23:26:20.529 (12148): argv[6]="--log"
+2018-07-23 23:26:20.529 (12148): argv[7]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\DataExtract.log"
+2018-07-23 23:26:20.529 (12148): pid=2260
+2018-07-23 23:26:20.529 (12148): Machine Configuration
+2018-07-23 23:26:20.529 (12148):   Max Descriptors: -1
+2018-07-23 23:26:20.529 (12148): Vectorization Support
+2018-07-23 23:26:20.529 (12148):   Supports SSE:    Yes
+2018-07-23 23:26:20.529 (12148):   Supports SSE2:   Yes
+2018-07-23 23:26:20.529 (12148):   Supports SSE3:   Yes
+2018-07-23 23:26:20.529 (12148):   Supports SSE4.1: Yes
+2018-07-23 23:26:20.529 (12148):   Supports SSE4.2: Yes
+2018-07-23 23:26:20.529 (12148):   Supports AVX:    Yes
+2018-07-23 23:26:20.529 (12148):   Supports AVX2:   Yes
+2018-07-23 23:26:20.529 (12148): Adjusted Values
+2018-07-23 23:26:20.529 (12148):   Physical RAM:              8495554560
+2018-07-23 23:26:20.529 (12148):   CPUs available to process: 4
+2018-07-23 23:26:20.529 (12148):   worker-threads:            4
+2018-07-23 23:26:20.529 (12148):   max-concurrency:           2
+2018-07-23 23:26:20.529 (12148):   query-parallelism:         2
+2018-07-23 23:26:20.529 (12148):   min-query-parallelism:     2
+2018-07-23 23:26:20.529 (12148):   work-buffer-size:          64
+2018-07-23 23:26:20.529 (12148):   TrackingMappedFiles :      1
+2018-07-23 23:26:20.529 (12148):   MemoryMapEntireFile:       1
+2018-07-23 23:26:20.529 (12148):   use-openfile-cache:        1
+2018-07-23 23:26:20.529 (12148): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}
+2018-07-23 23:26:20.529 (12148): tdeserver: new connection, connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}
+2018-07-23 23:26:20.529 (14908): tdeserver: open session1, connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}
+2018-07-23 23:26:20.529 (10888): Session1: QueryExecute:
+2018-07-23 23:26:20.529 (10888): (create database "C:\\Users\\Squirtel\\Documents\\LearnEd\\python\\TableauSDK-10300.18.0703.1954\\trivialExample.tde")
+2018-07-23 23:26:21.008 (10888): Compiling query with Memory Budget=3680358400 MemoryAvailable=3680358400
+2018-07-23 23:26:21.008 (10888): Session1: QueryExecute: OK, Elapsed time:0.477s, Compilation time:0.477s, Execution time:0.000s
+2018-07-23 23:31:59.444 (4732): Session1: QueryExecute:
+2018-07-23 23:31:59.444 (4732): (package)
+2018-07-23 23:31:59.444 (4732): Compiling query with Memory Budget=3586396160 MemoryAvailable=3586396160
+2018-07-23 23:31:59.444 (4732): PackageDatabase: in-place package of "C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\trivialExample.tde"
+2018-07-23 23:31:59.467 (4732): PackageDatabase: finished
+2018-07-23 23:31:59.467 (4732): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2018-07-23 23:31:59.467 (14908): tdeserver: close session1, connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}
+2018-07-23 23:31:59.467 (12148): tdeserver: closing connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}
+2018-07-23 23:31:59.467 (14908): tdeserver: disconnected connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{D13DC314-F521-4CCE-97DC-BB9010831AEB}): The pipe has been ended.
+2018-07-23 23:31:59.467 (12148): tdeserver: exit (0)
+2018-07-23 23:32:05.401 (8672): -----------------------------------------------------------------------------
+2018-07-23 23:32:05.401 (8672): Initializing fault reporting
+2018-07-23 23:32:05.401 (8672): Fault reporting log pathname: C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tdeserver64-error_11352_18-0723-233205.log
+2018-07-23 23:32:05.401 (8672): Initializing MiniDump
+2018-07-23 23:32:05.401 (8672): Loading 'DbgHelp.dll'
+2018-07-23 23:32:05.401 (8672): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2018-07-23 23:32:05.401 (8672):   Product Name: Microsoft® Windows® Operating System
+2018-07-23 23:32:05.401 (8672):   File Version: 10.0.17134.1 (WinBuild.160101.0800)
+2018-07-23 23:32:05.401 (8672):   Product Version: 10.0.17134.1
+2018-07-23 23:32:05.401 (8672): Finding function 'MiniDumpWriteDump'
+2018-07-23 23:32:05.401 (8672): Success
+2018-07-23 23:32:05.401 (8672): Registering unhandled exception filter
+2018-07-23 23:32:05.401 (8672): -----------------------------------------------------------------------------
+2018-07-23 23:32:05.401 (8672): argv[0]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tableausdk\bin\tdeserver64.exe"
+2018-07-23 23:32:05.401 (8672): argv[1]="--callback"
+2018-07-23 23:32:05.401 (8672): argv[2]="tab.pipe://./pipe/{9EC1C93B-C2D2-41B9-907F-A25EEEFC04A5}"
+2018-07-23 23:32:05.401 (8672): argv[3]="--listen"
+2018-07-23 23:32:05.401 (8672): argv[4]="tab.pipe://./pipe/auto"
+2018-07-23 23:32:05.401 (8672): argv[5]="--desktop"
+2018-07-23 23:32:05.401 (8672): argv[6]="--log"
+2018-07-23 23:32:05.401 (8672): argv[7]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\DataExtract.log"
+2018-07-23 23:32:05.401 (8672): pid=11352
+2018-07-23 23:32:05.401 (8672): Machine Configuration
+2018-07-23 23:32:05.401 (8672):   Max Descriptors: -1
+2018-07-23 23:32:05.401 (8672): Vectorization Support
+2018-07-23 23:32:05.401 (8672):   Supports SSE:    Yes
+2018-07-23 23:32:05.401 (8672):   Supports SSE2:   Yes
+2018-07-23 23:32:05.401 (8672):   Supports SSE3:   Yes
+2018-07-23 23:32:05.401 (8672):   Supports SSE4.1: Yes
+2018-07-23 23:32:05.401 (8672):   Supports SSE4.2: Yes
+2018-07-23 23:32:05.401 (8672):   Supports AVX:    Yes
+2018-07-23 23:32:05.401 (8672):   Supports AVX2:   Yes
+2018-07-23 23:32:05.401 (8672): Adjusted Values
+2018-07-23 23:32:05.401 (8672):   Physical RAM:              8495554560
+2018-07-23 23:32:05.401 (8672):   CPUs available to process: 4
+2018-07-23 23:32:05.401 (8672):   worker-threads:            4
+2018-07-23 23:32:05.401 (8672):   max-concurrency:           2
+2018-07-23 23:32:05.401 (8672):   query-parallelism:         2
+2018-07-23 23:32:05.401 (8672):   min-query-parallelism:     2
+2018-07-23 23:32:05.401 (8672):   work-buffer-size:          64
+2018-07-23 23:32:05.401 (8672):   TrackingMappedFiles :      1
+2018-07-23 23:32:05.401 (8672):   MemoryMapEntireFile:       1
+2018-07-23 23:32:05.401 (8672):   use-openfile-cache:        1
+2018-07-23 23:32:05.401 (8672): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}
+2018-07-23 23:32:05.401 (8672): tdeserver: new connection, connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}
+2018-07-23 23:32:05.401 (11792): tdeserver: open session1, connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}
+2018-07-23 23:32:05.401 (1720): Session1: QueryExecute:
+2018-07-23 23:32:05.401 (1720): (create database "C:\\Users\\Squirtel\\Documents\\LearnEd\\python\\TableauSDK-10300.18.0703.1954\\trivialExample.tde")
+2018-07-23 23:32:05.871 (1720): Compiling query with Memory Budget=3391324160 MemoryAvailable=3391324160
+2018-07-23 23:32:05.871 (1720): Session1: QueryExecute: OK, Elapsed time:0.472s, Compilation time:0.472s, Execution time:0.000s
+2018-07-23 23:32:05.887 (15548): Session1: QueryExecute:
+2018-07-23 23:32:05.887 (15548): (package)
+2018-07-23 23:32:05.887 (15548): Compiling query with Memory Budget=3391234048 MemoryAvailable=3391234048
+2018-07-23 23:32:05.887 (15548): PackageDatabase: in-place package of "C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\trivialExample.tde"
+2018-07-23 23:32:05.902 (15548): PackageDatabase: finished
+2018-07-23 23:32:05.902 (15548): Session1: QueryExecute: OK, Elapsed time:0.020s, Compilation time:0.000s, Execution time:0.020s
+2018-07-23 23:32:05.902 (11792): tdeserver: close session1, connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}
+2018-07-23 23:32:05.902 (8672): tdeserver: closing connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}
+2018-07-23 23:32:05.902 (11792): tdeserver: disconnected connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{35BA0104-BD51-4489-AD76-9B3FEAF3EC82}): The pipe has been ended.
+2018-07-23 23:32:05.902 (8672): tdeserver: exit (0)
+2018-07-23 23:38:59.311 (5756): -----------------------------------------------------------------------------
+2018-07-23 23:38:59.311 (5756): Initializing fault reporting
+2018-07-23 23:38:59.311 (5756): Fault reporting log pathname: C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tdeserver64-error_16200_18-0723-233859.log
+2018-07-23 23:38:59.327 (5756): Initializing MiniDump
+2018-07-23 23:38:59.327 (5756): Loading 'DbgHelp.dll'
+2018-07-23 23:38:59.327 (5756): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2018-07-23 23:38:59.327 (5756):   Product Name: Microsoft® Windows® Operating System
+2018-07-23 23:38:59.327 (5756):   File Version: 10.0.17134.1 (WinBuild.160101.0800)
+2018-07-23 23:38:59.327 (5756):   Product Version: 10.0.17134.1
+2018-07-23 23:38:59.327 (5756): Finding function 'MiniDumpWriteDump'
+2018-07-23 23:38:59.327 (5756): Success
+2018-07-23 23:38:59.327 (5756): Registering unhandled exception filter
+2018-07-23 23:38:59.327 (5756): -----------------------------------------------------------------------------
+2018-07-23 23:38:59.327 (5756): argv[0]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\tableausdk\bin\tdeserver64.exe"
+2018-07-23 23:38:59.327 (5756): argv[1]="--callback"
+2018-07-23 23:38:59.327 (5756): argv[2]="tab.pipe://./pipe/{D84E6BC8-13D9-4771-A3C3-47ABA1669485}"
+2018-07-23 23:38:59.327 (5756): argv[3]="--listen"
+2018-07-23 23:38:59.327 (5756): argv[4]="tab.pipe://./pipe/auto"
+2018-07-23 23:38:59.327 (5756): argv[5]="--desktop"
+2018-07-23 23:38:59.327 (5756): argv[6]="--log"
+2018-07-23 23:38:59.327 (5756): argv[7]="C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\DataExtract.log"
+2018-07-23 23:38:59.327 (5756): pid=16200
+2018-07-23 23:38:59.327 (5756): Machine Configuration
+2018-07-23 23:38:59.327 (5756):   Max Descriptors: -1
+2018-07-23 23:38:59.327 (5756): Vectorization Support
+2018-07-23 23:38:59.327 (5756):   Supports SSE:    Yes
+2018-07-23 23:38:59.327 (5756):   Supports SSE2:   Yes
+2018-07-23 23:38:59.327 (5756):   Supports SSE3:   Yes
+2018-07-23 23:38:59.327 (5756):   Supports SSE4.1: Yes
+2018-07-23 23:38:59.327 (5756):   Supports SSE4.2: Yes
+2018-07-23 23:38:59.327 (5756):   Supports AVX:    Yes
+2018-07-23 23:38:59.327 (5756):   Supports AVX2:   Yes
+2018-07-23 23:38:59.327 (5756): Adjusted Values
+2018-07-23 23:38:59.327 (5756):   Physical RAM:              8495554560
+2018-07-23 23:38:59.327 (5756):   CPUs available to process: 4
+2018-07-23 23:38:59.327 (5756):   worker-threads:            4
+2018-07-23 23:38:59.327 (5756):   max-concurrency:           2
+2018-07-23 23:38:59.327 (5756):   query-parallelism:         2
+2018-07-23 23:38:59.327 (5756):   min-query-parallelism:     2
+2018-07-23 23:38:59.327 (5756):   work-buffer-size:          64
+2018-07-23 23:38:59.327 (5756):   TrackingMappedFiles :      1
+2018-07-23 23:38:59.327 (5756):   MemoryMapEntireFile:       1
+2018-07-23 23:38:59.327 (5756):   use-openfile-cache:        1
+2018-07-23 23:38:59.327 (5756): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}
+2018-07-23 23:38:59.327 (5756): tdeserver: new connection, connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}
+2018-07-23 23:38:59.327 (15796): tdeserver: open session1, connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}
+2018-07-23 23:38:59.327 (10524): Session1: QueryExecute:
+2018-07-23 23:38:59.327 (10524): (create database "C:\\Users\\Squirtel\\Documents\\LearnEd\\python\\TableauSDK-10300.18.0703.1954\\trivialExample.tde")
+2018-07-23 23:38:59.791 (10524): Compiling query with Memory Budget=3553345536 MemoryAvailable=3553345536
+2018-07-23 23:38:59.791 (10524): Session1: QueryExecute: OK, Elapsed time:0.469s, Compilation time:0.469s, Execution time:0.000s
+2018-07-23 23:38:59.791 (6236): Session1: QueryExecute:
+2018-07-23 23:38:59.791 (6236): (create schema [Extract])
+2018-07-23 23:38:59.791 (6236): Compiling query with Memory Budget=3553288192 MemoryAvailable=3553288192
+2018-07-23 23:38:59.828 (6236): Session1: QueryExecute: OK, Elapsed time:0.040s, Compilation time:0.000s, Execution time:0.040s
+2018-07-23 23:38:59.828 (7516): Session1: QueryExecute:
+2018-07-23 23:38:59.828 (7516): (create table [Extract].[Extract])
+2018-07-23 23:38:59.828 (7516): Compiling query with Memory Budget=3548274688 MemoryAvailable=3548274688
+2018-07-23 23:38:59.875 (7516): Session1: QueryExecute: OK, Elapsed time:0.037s, Compilation time:0.000s, Execution time:0.037s
+2018-07-23 23:38:59.891 (8212): Session1: QueryExecute:
+2018-07-23 23:38:59.891 (8212): (create column [Extract].[Extract].[rowID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2018-07-23 23:38:59.907 (8212): Compiling query with Memory Budget=3521810432 MemoryAvailable=3521810432
+2018-07-23 23:38:59.944 (8212): Session1: QueryExecute: OK, Elapsed time:0.041s, Compilation time:0.004s, Execution time:0.037s
+2018-07-23 23:38:59.944 (10524): Session1: QueryExecute:
+2018-07-23 23:38:59.944 (10524): (create column [Extract].[Extract].[value] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ))
+2018-07-23 23:38:59.944 (10524): Compiling query with Memory Budget=3521810432 MemoryAvailable=3521810432
+2018-07-23 23:38:59.960 (10524): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2018-07-23 23:38:59.960 (6236): Session1: InsertOpen: table="Extract" schema="Extract"
+2018-07-23 23:38:59.960 (6236):   column[0]="rowID"
+2018-07-23 23:38:59.960 (6236):   column[1]="value"
+2018-07-23 23:38:59.960 (7516): Session1: InsertPutValues: total_calls=1 total_message_size=3224
+2018-07-23 23:38:59.976 (8212): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=3224
+2018-07-23 23:38:59.976 (8212): Session1: InsertCommit: OK
+2018-07-23 23:38:59.976 (10524): Session1: InsertClose: insert_guid=1
+2018-07-23 23:38:59.976 (10524): Session1: InsertClose: OK
+2018-07-23 23:38:59.976 (6236): Session1: QueryExecute:
+2018-07-23 23:38:59.976 (6236): (package)
+2018-07-23 23:38:59.976 (6236): Compiling query with Memory Budget=3521798144 MemoryAvailable=3521798144
+2018-07-23 23:38:59.976 (6236): PackageDatabase: in-place package of "C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\trivialExample.tde"
+2018-07-23 23:39:00.029 (6236): PackageDatabase: finished
+2018-07-23 23:39:00.029 (6236): Session1: QueryExecute: OK, Elapsed time:0.057s, Compilation time:0.000s, Execution time:0.057s
+2018-07-23 23:39:00.029 (7516): Session1: QueryExecute:
+2018-07-23 23:39:00.029 (7516): (database "C:\\Users\\Squirtel\\Documents\\LearnEd\\python\\TableauSDK-10300.18.0703.1954\\trivialExample.tde")
+2018-07-23 23:39:00.045 (7516): Compiling query with Memory Budget=3521826816 MemoryAvailable=3521826816
+2018-07-23 23:39:00.045 (7516): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2018-07-23 23:39:00.045 (8212): Session1: QueryExecute:
+2018-07-23 23:39:00.045 (8212): (show schemas)
+2018-07-23 23:39:00.045 (8212): Compiling query with Memory Budget=3521826816 MemoryAvailable=3521826816
+2018-07-23 23:39:00.045 (8212): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2018-07-23 23:39:00.045 (10524): Session1: RowsetGetValues: rowset_guid=2
+2018-07-23 23:39:00.045 (6236): Session1: RowsetGetValues: rowset_guid=2
+2018-07-23 23:39:00.045 (7516): Session1: RowsetClose: rowset_guid=2
+2018-07-23 23:39:00.045 (8212): Session1: QueryExecute:
+2018-07-23 23:39:00.045 (8212): (show tables [Extract])
+2018-07-23 23:39:00.045 (8212): Compiling query with Memory Budget=3521855488 MemoryAvailable=3521855488
+2018-07-23 23:39:00.045 (8212): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2018-07-23 23:39:00.045 (10524): Session1: RowsetGetValues: rowset_guid=3
+2018-07-23 23:39:00.045 (6236): Session1: RowsetGetValues: rowset_guid=3
+2018-07-23 23:39:00.045 (7516): Session1: RowsetClose: rowset_guid=3
+2018-07-23 23:39:00.045 (8212): Session1: QueryExecute:
+2018-07-23 23:39:00.045 (8212): (top (table [Extract].[Extract]) () 0)
+2018-07-23 23:39:00.045 (8212): Compiling query with DOP=2
+2018-07-23 23:39:00.060 (8212): Compiling query with Memory Budget=3521761280 MemoryAvailable=3521761280
+2018-07-23 23:39:00.060 (8212): Session1: QueryExecute: OK rowset_guid=4 n_columns=2, Elapsed time:0.010s, Compilation time:0.010s, Execution time:0.000s
+2018-07-23 23:39:00.091 (10524): Session1: RowsetClose: rowset_guid=4
+2018-07-23 23:39:00.091 (6236): Session1: QueryExecute:
+2018-07-23 23:39:00.091 (6236): (alter column [Extract].[Extract].[rowID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-07-23 23:39:00.091 (6236): Compiling query with Memory Budget=3514638336 MemoryAvailable=3514638336
+2018-07-23 23:39:00.114 (6236): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2018-07-23 23:39:00.114 (7516): Session1: QueryExecute:
+2018-07-23 23:39:00.114 (7516): (alter column [Extract].[Extract].[value] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-07-23 23:39:00.114 (7516): Compiling query with Memory Budget=3504766976 MemoryAvailable=3504766976
+2018-07-23 23:39:00.129 (7516): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2018-07-23 23:39:00.129 (8212): Session1: QueryExecute:
+2018-07-23 23:39:00.129 (8212): (top (table [Extract].[Extract]) () 0)
+2018-07-23 23:39:00.129 (8212): Compiling query with DOP=2
+2018-07-23 23:39:00.129 (8212): Compiling query with Memory Budget=3503804416 MemoryAvailable=3503804416
+2018-07-23 23:39:00.129 (8212): Session1: QueryExecute: OK rowset_guid=5 n_columns=2, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2018-07-23 23:39:00.129 (10524): Session1: RowsetClose: rowset_guid=5
+2018-07-23 23:39:00.129 (6236): Session1: QueryExecute:
+2018-07-23 23:39:00.129 (6236): (sort [Extract].[Extract] ( ( [rowID] asc) ( [value] asc) ) )
+2018-07-23 23:39:00.129 (6236): Compiling query with Memory Budget=3503804416 MemoryAvailable=3503804416
+2018-07-23 23:39:00.145 (6236): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2018-07-23 23:39:00.145 (7516): Session1: QueryExecute:
+2018-07-23 23:39:00.145 (7516): (package)
+2018-07-23 23:39:00.145 (7516): Compiling query with Memory Budget=3503542272 MemoryAvailable=3503542272
+2018-07-23 23:39:00.145 (7516): PackageDatabase: in-place package of "C:\Users\Squirtel\Documents\LearnEd\python\TableauSDK-10300.18.0703.1954\trivialExample.tde"
+2018-07-23 23:39:00.192 (7516): PackageDatabase: finished
+2018-07-23 23:39:00.192 (7516): Session1: QueryExecute: OK, Elapsed time:0.041s, Compilation time:0.000s, Execution time:0.041s
+2018-07-23 23:39:00.192 (15796): tdeserver: close session1, connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}
+2018-07-23 23:39:00.192 (5756): tdeserver: closing connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}
+2018-07-23 23:39:00.192 (15796): tdeserver: disconnected connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{8EDCAC70-A4D1-4E34-8B3B-B1EFF1C2BB2F}): The pipe has been ended.
+2018-07-23 23:39:00.192 (5756): tdeserver: exit (0)
